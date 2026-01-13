@@ -63,8 +63,8 @@ Content-Type: application/json
 Authorization: Bearer {{auth_token}}
 
 {
-  "product": "구매한 상품",
-  "quantity": 3,
+  "product": "구매한 상품222",
+  "quantity": 333,
   "price": 10000
 }
 
