@@ -8,4 +8,10 @@ spring:
     config:
       server:
         git: # git으로 관리되는 폴더 내 설정 파일을 읽어옴(commit 상태여야 함)
-          uri: C:\SWCAMP22\10_msa\06_Parkchanjin\msa-root\config
+          # uri: C:\SWCAMP22\10_msa\06_Parkchanjin\msa-root\config
+
+          #github private repository 연결
+          uri: https://github.com/chanjin346/config-server-test.git
+          username: chanjin346
+          password: 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
+          default-label: main
